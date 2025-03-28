@@ -4,7 +4,7 @@
 
 - [x] Implement HLS manifest parser and generator
 - [x] Implement HLS merger
-- [ ] Implement HLS index-based manipulation
+- [x] Implement HLS count-based manipulation
 - [ ] Implement HLS time-based manipulation
 - [ ] Implement HLS controller based on time and segment count
 - [ ] Implement HTTP static file server
@@ -14,3 +14,5 @@
 - [ ] Implement YouTube video downloading
 - [ ] Implement YouTube playlist support
 - [ ] Implement YouTube mix support
+- [ ] Fix memory leak on HLS manifest parsing
+- [ ] Fix memory leak on HLS count-based manipulation
